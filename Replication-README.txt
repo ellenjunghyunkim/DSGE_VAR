@@ -15,9 +15,10 @@ Replication
 The plots in the paper can be replicated by .R using the attached saved
 files.
 For a full replication:
-	first)	 run 
-	second)	 run 
-	third)		run 
+	first)	 run VAR_KIM.R
+	use IRF_function.R to call "ellen" function
+	second)  run BVAR_KIM.R
+	use IRF_function.R to call "ellen" function
 
 ********************************************************************************************
 File Structure
@@ -53,10 +54,14 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________
 
-quant_reg.R
+VAR_KIM.R
+BVAR_KIM.R
 
-	This script estimates 
+	This script estimates VAR and BVAR.
 
 	input:
 		- data_eurozone.csv
+		
+	output:
+		- Forecasted values (ex.P6Q, R2Q, Y4Q, ....)
 		
