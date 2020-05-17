@@ -1,5 +1,5 @@
 # DSGE and VAR
-Code and Data for final paper in applied econometrics @ENSAE 2019
+Code and Data for final paper in applied econometrics @ENSAE 2019-2020
 
 Please read Replication-README for instructions on how to replicate the results in the paper 'Anticipation of an Interest Rate Shockand Monetary Policy in the Eurozone'
 
