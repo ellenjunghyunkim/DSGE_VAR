@@ -14,7 +14,16 @@ Replication
 
 The plots in the paper can be replicated by .R using the attached saved
 files.
-For a full replication:
+
+For a full replication for various DSGE models:
+	first)	 
+	
+	second)  
+	
+
+
+
+For a full replication for various VAR models:
 	first)	 run VAR_KIM.R
 	use IRF_function.R to call "ellen" function
 	second)  run BVAR_KIM.R
