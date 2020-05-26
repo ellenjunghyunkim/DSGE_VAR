@@ -8,12 +8,11 @@ May 17, 2020
 
 *******************************************************************************************
 Prerequisites
-*******************************************************************************************
 These files require a working installation of R and Matlab. 
 
 *******************************************************************************************
 Replication
-*******************************************************************************************
+
 
 The plots in the paper can be replicated by .R using the attached saved
 files.
@@ -26,7 +25,7 @@ For a full replication for various VAR models:
 
 ********************************************************************************************
 File Structure
-********************************************************************************************
+
 data_eurozone.R:
 
 	The code merge each input to create the dataset. 
@@ -35,15 +34,13 @@ data_eurozone.R:
 	input:
 		- interest_rate.xlsx
 		- inflation.xlsx
-    - gdp_real.xlsx
-    - gdp_potential.xlsx
+    		- gdp_real.xlsx
+   		 - gdp_potential.xlsx
 
 	output:
 
 		if do_write:
 			- data_eurozone.csv
-
-
 ___________________________________________________________________________________________________
 
 VAR_KIM.R
